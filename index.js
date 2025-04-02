@@ -1,4 +1,6 @@
 import { program } from "commander";
+import "./contacts.js";
+
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
